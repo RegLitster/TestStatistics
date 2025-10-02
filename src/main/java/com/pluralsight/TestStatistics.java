@@ -18,13 +18,13 @@ public class TestStatistics {
             min = Math.min(min,testScore[i]);
         }
         int average = totalSum/totalLength;
-        System.out.println("Average Score: "+average);
-        System.out.println("Maximum Score: "+max);
-        System.out.println("Minimum Score: "+min);
+        System.out.println("Average Score: " + average);
+        System.out.println("Maximum Score: " + max);
+        System.out.println("Minimum Score: " + min);
 
         Arrays.sort(testScore);
         int median = testScore[testScore.length/2];
-        System.out.println("Median Score: "+median);
+        System.out.println("Median Score: " + median);
 
 
 
